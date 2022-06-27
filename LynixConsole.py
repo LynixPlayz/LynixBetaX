@@ -1,4 +1,4 @@
-
+import os
 from email import message
 from logging import exception
 from sre_parse import CATEGORIES
@@ -559,7 +559,5 @@ async def clear(ctx, amount = 5):
     else:
         await ctx.channel.purge(limit=999999999999999999999999999999999999999999999999999999999999999)
 
-@bot.command()
-1
 
-bot.run('OTY0OTU5OTQ5NzYxNDQ1OTE4.YlsO_A.pkuFavOlP2CGZBdfQ4yxC5Pf7Es')
+bot.run(os.environ["DISCORD_TOKEN"])
