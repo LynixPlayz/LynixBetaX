@@ -1,1 +1,1 @@
-worker: python3 LynixConsole.py
+worker: python LynixConsole.py
